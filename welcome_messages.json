@@ -5,6 +5,6 @@
 		["Atrus", "Who the devil are you, @name?!"]
 	],
 	[
-		["Atrus", "**@user** just left the server. Goodbye, my friend."]
+		["Atrus", "@name just left the server. Goodbye, my friend."]
 	]
 ]
