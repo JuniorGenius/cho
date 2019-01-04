@@ -1,8 +1,8 @@
 const welcome_messages = require('./welcome_messages.json');
 
-async function welcome(client, member) {
+async function welcome(client, member, left=false) {
 	// Get random message
-	const message = welcome_messages[Math.floor(Math.random() * welcome_messages.length)];
+	const message = welcome_messages[Number(left)][Math.floor(Math.random() * welcome_messages[Number(left)].length)];
 
 	// Try changing nickname and avatar
 	try {
